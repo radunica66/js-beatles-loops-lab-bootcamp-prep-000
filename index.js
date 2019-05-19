@@ -1,7 +1,7 @@
 // add solution here
-let emptyArray = []
+var emptyArray = []
 function theBeatlesPlay(arrayMusicians, arrayInstruments){
-  for(let i = 0; i < arrayMusicians.length; i++){
+  for(var i = 0; i < arrayMusicians.length; i++){
       emptyArray.push(arrayMusicians[i] + " plays "+ arrayInstruments[i])
   }
 
